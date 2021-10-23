@@ -14,6 +14,7 @@ function Message(props: PropsType) {
                 <div className={s.img_wrapper}>
                     <img className={s.img} src={props.avatar} alt="#" />
                 </div>
+                <div className={s.corner}></div>
                 <div className={s.wrapper}>
                     <div className={s.name}>{props.name}</div>
                     <div className={s.text}>{props.message}</div>
