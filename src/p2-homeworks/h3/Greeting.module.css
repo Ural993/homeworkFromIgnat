@@ -1,7 +1,23 @@
-.someClass {
+.someClass {}
 
+.errorInput {
+    border: 1px solid red;
 }
 
 .error {
-    border: 1px solid red;
+    color: red;
+    display: block;
+}
+
+.btn {
+    width: 50px;
+    height: 20px;
+    background-color: rgb(12, 54, 10);
+    color: wheat;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.count {
+    color: rgb(12, 54, 10);
 }
