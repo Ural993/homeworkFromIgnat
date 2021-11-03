@@ -1,3 +1,16 @@
-.someClass {
+.block {
+    display: flex;
+    border-bottom: 1px solid black;
+    width: 300px;
+    margin-bottom: 10px;
+}
 
+.taskname {
+    margin-right: 20px;
+    width: 200px;
+}
+
+.tasklevel {
+    color: red;
+    width: 100px;
 }
